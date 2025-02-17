@@ -3,7 +3,8 @@ import { FaStar } from "react-icons/fa6";
 const Design = () => {
   return (
       
-     <div className="relative  lg:w-[710px] z-10 h-[490px] lg:left-[349px] left-[79px]  ">
+     <div className="relative  lg:w-[710px] scale-[60%] lg:scale-100 
+       z-10 h-[490px] lg:left-[349px] left-[-59px] -top-8 lg:top-0">
 
        <div className='relative  lg:w-[710px] z-10 h-[490px]   blur-3xl  '>                 
         {/* Child with clip-path */}

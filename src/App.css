@@ -2,16 +2,16 @@
   text-align: center;
   background-color: #050506;
   height: 6261px;
-  width: 1336px;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
  
-@media (max-width:1040px){
-  #root{
-
-     height: 7191px;
-  width: 740px;
-  }
- 
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Ensures no horizontal scrolling */
 }
+ 
  
   
