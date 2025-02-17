@@ -85,7 +85,7 @@ const AdTaskHomePage = () => {
     </div>
 
     
-              <div className='lg:top-85  top-22  gap-1 relative cursor-pointer    
+              <div className='lg:top-85  top-22  gap-1 relative    
                w-[171px] rounded-[15px] border-2
                  lg:left-[585px] left-[89px] hover:scale-110 transition-all duration-200 cursor-pointer
                bg-[rgba(40,40,40,1)]  border-[rgba(255,255,255,0.05)]
@@ -287,7 +287,7 @@ Unlock actionable data to guide every decision.
          <div className=' flex justify-center gap-1 relative cursor-pointer    
                w-[171px] rounded-[15px] border-2  lg:left-[545px] left-[85px] mt-6
                bg-[rgba(40,40,40,1)]  border-[rgba(255,255,255,0.05)]
-                hover:scale-110 transition-all duration-200 cursor-pointer text-white  p-2'>
+                hover:scale-110 transition-all duration-200 text-white  p-2'>
                Services
               </div>
 
