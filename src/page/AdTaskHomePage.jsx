@@ -38,7 +38,7 @@ const AdTaskHomePage = () => {
            </div>
            <div className='absolute top-[251px] text-9xl lg:left-[371px] left-[272px]
              text-[rgba(133,137,146,1)]'
-           > < FaYoutube className="text-red-600 hover:scale-105
+           > < FaYoutube className="text-red-600 hover:scale-105 cursor-pointer
            transition-all duration-300 bg-black size-24 z-30"/>
            </div>
 
@@ -75,18 +75,19 @@ const AdTaskHomePage = () => {
     <div className="text-[rgba(226,232,248,1)]  relative -top-34 lg:top-54"><p >Adtask AI works with :</p></div>
     <div className="grid lg:grid-cols-6 grid-cols-3    h-[80px]  relative -top-24 lg:top-[256px] gap-[40px] lg:w-[1044px] w-[484px]
     scale-[70%] lg:scale-100 left-[-62px] lg:left-36">
-        <div className="  rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]"><SiGoogleads className="size-20"/></div>
-        <div className="  rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< FaTiktok className="size-20"/></div>
-        <div className=" rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]"><  FaMeta className="size-20"/></div>
-        <div className=" rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< FaLinkedin className="size-20"/></div>
-        <div className=" rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< FaAmazon className="size-20"/></div>
-        <div className="  rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< BsTwitterX className="size-20"/></div>
+      
+        <div className="hover:scale-110 transition-all duration-200 cursor-pointer  rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]"><SiGoogleads className="size-20"/></div>
+        <div className="hover:scale-110 transition-all duration-200 cursor-pointer  rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< FaTiktok className="size-20"/></div>
+        <div className="hover:scale-110 transition-all duration-200 cursor-pointer rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]"><  FaMeta className="size-20"/></div>
+        <div className="hover:scale-110 transition-all duration-200 cursor-pointer rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< FaLinkedin className="size-20"/></div>
+        <div className="hover:scale-110 transition-all duration-200 cursor-pointer rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< FaAmazon className="size-20"/></div>
+        <div className="hover:scale-110 transition-all duration-200 cursor-pointer  rounded-2xl border-2 border-[rgba(118,135,181,1)] p-6 h-[119px] bg-gradient-to-b from-[#7687B5] to-[#333B4F]">< BsTwitterX className="size-20"/></div>
     </div>
 
     
               <div className='lg:top-85  top-22  gap-1 relative cursor-pointer    
                w-[171px] rounded-[15px] border-2
-                 lg:left-[585px] left-[89px]
+                 lg:left-[585px] left-[89px] hover:scale-110 transition-all duration-200 cursor-pointer
                bg-[rgba(40,40,40,1)]  border-[rgba(255,255,255,0.05)]
                text-white  p-2'>
                Features
@@ -286,7 +287,7 @@ Unlock actionable data to guide every decision.
          <div className=' flex justify-center gap-1 relative cursor-pointer    
                w-[171px] rounded-[15px] border-2  lg:left-[545px] left-[85px] mt-6
                bg-[rgba(40,40,40,1)]  border-[rgba(255,255,255,0.05)]
-               text-white  p-2'>
+                hover:scale-110 transition-all duration-200 cursor-pointer text-white  p-2'>
                Services
               </div>
 
@@ -395,7 +396,7 @@ Unlock actionable data to guide every decision.
               <div className=' flex justify-center gap-1 relative cursor-pointer    
                w-[171px] rounded-[15px] border-2  lg:left-[585px] left-[105px] mt-[-62px]
                bg-[rgba(40,40,40,1)]  border-[rgba(255,255,255,0.05)]
-               text-white  p-2'>
+               text-white  hover:scale-110 transition-all duration-200  p-2'>
                Contact Us
               </div>
               <div className=' flex justify-center gap-1 relative cursor-pointer    
@@ -632,7 +633,7 @@ Whether you have questions or are ready to discuss your</p>
    
 
    </div>
-   <p className="text-[rgba(120,129,153,1)] text-md mt-16">All rights reserved © 2025 adTask</p>
+   <p className="text-[rgba(120,129,153,1)] text-md mt-16 my-6">All rights reserved © 2025 adTask</p>
   
 </div>
   );

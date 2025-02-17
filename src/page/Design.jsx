@@ -28,7 +28,8 @@ const Design = () => {
             < FaStar className='text-amber-100 size-3 ml-1'/>
           </div>Transform Your Digital Presence with AI Agents</div>
 
-           <div className='absolute z-20 top-[152px] text-9xl opacity-10
+           <div className='absolute z-20 top-[152px] text-9xl opacity-30 hover:opacity-50
+           cursor-pointer
              text-[rgba(133,137,146,1)]'
            >ad<b>Task</b>.ai
            </div>
@@ -43,11 +44,12 @@ const Design = () => {
            w-[185px] h-[48px] rounded-[15px] border-2 top-[421px] left-[155px]
            bg-[rgba(51,59,79,1)]  border-[rgba(255,255,255,0.05)]
             inset-0   bg-gradient-to-r from-[#7687B5] to-[#333B4F]
-           text-white p-2 z-50
+           text-white p-2 z-50 hover:scale-90  transition-all duration-300
          ' 
           > Start Free Trail</div> 
           <p className=' text-[rgba(142,141,141,1)] absolute top-[485px] left-[125px]
         z-40   w-[246px] h-[15px] '>Try AdTask AI free for 30 days</p>
+        
     </div>
   )
 }
