@@ -1,0 +1,17 @@
+#root {
+  text-align: center;
+  background-color: #050506;
+  height: 6261px;
+  width: 1336px;
+}
+ 
+@media (max-width:1040px){
+  #root{
+
+     height: 7191px;
+  width: 740px;
+  }
+ 
+}
+ 
+  
